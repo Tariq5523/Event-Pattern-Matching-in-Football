@@ -6,6 +6,7 @@ Summary of methodologies:
 -	Used Dynamic Time Warping (DTW) to match football events patterns (using the Python library fastdtw).
 -	Evaluated the results by visualizing the patterns of football events on a football pitch plot (using Python libraries: mplsoccer and matplotlib).
 
+Note:
 The MongoDB database is set up locally and this script allows to connect to it and perform the necessary queries.
 
 The database consists of the Events from the StatsBomb Open Data [1]. The Events were imported into the database using the mongoimport command line tool. The Events are stored in the eventswithID collection in the statsbomb database. The Events are stored in the database in the same format as they are in the JSON files provided by StatsBomb.
